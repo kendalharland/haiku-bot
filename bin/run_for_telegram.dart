@@ -4,7 +4,7 @@ import 'dart:io';
 import 'package:haiku_bot/telegram/telegram_haiku_bot.dart';
 import 'package:telegram_bot/telegram_bot.dart';
 
-Future main(List<String> args) async {
+Future main() async {
   final apiToken = Platform.environment['TELEGRAM_API_TOKEN'];
   var tg = new TelegramBot(apiToken);
   var haikuBot = new TelegramHaikuBot();
