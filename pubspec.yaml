@@ -1,0 +1,13 @@
+name: haiku_bot
+version: 1.0.0
+homepage: https://github.com/kharland/haiku-bot
+description: A chat-bot that detects and quotes Haikus
+author: Kendal Harland <kendaljharland@gmail.com>
+dependencies:
+  haiku:
+    git: https://github.com/kharland/haiku
+  telegram_bot:
+  discord: 0.15.0
+  meta:
+dev_dependencies:
+  test:
